@@ -1,0 +1,101 @@
+@font-face {
+  font-family: CooperHewitt-Bold;
+  src: url(CooperHewitt-Bold.otf);
+}
+
+@font-face {
+  font-family: EBGaramond;
+  src: url(EBGaramond12-Regular.otf);
+}
+
+@font-face {
+  font-family: CothamSans;
+  src: url(CothamSans.otf)
+}
+
+/*
+#90B897; dollar bill green
+#9B9E9B; mid grey green
+#e6ebe; muted grey green
+#CAFCD2; bright mint green
+#696b69; Dark grey 
+*/
+
+body {
+  font-family: EBGaramond;
+  font-size: 1.5em;
+  background-color: #e6ebeb;
+}
+
+a {
+  color: #696b69;
+}
+
+h1,
+h2, h3 {
+  font-family: CooperHewitt-Bold;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table, .formula {
+  font-family: CothamSans;
+  padding: 0.5em;
+  border: solid #9B9E9B;
+  background-color: #CAFCD2;
+}
+
+table {
+  width: 100%;
+}
+
+td.figure {
+  text-align: right;
+}
+
+.formula {
+   text-align: center;
+}
+
+.credit-eb-garamond {
+  font-family: EBGaramond;
+}
+
+.credit-copper-hewitt {
+  font-family: CooperHewitt-Bold;
+}
+
+.credit-cotham-sans {
+  font-family: CothamSans;
+}
+
+@media screen and (max-width: 480px) {
+  main, footer {
+    max-width: 400px;
+    margin: 0 30px;  
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  main, footer {
+    max-width: 700px;
+    margin: 0 30px;  
+  }
+}
+
+.money {
+  color: #3E974C;
+  font-weight: bold;
+}
