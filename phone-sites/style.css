@@ -1,0 +1,35 @@
+body {
+  font-size: 1.5em;
+  background-color: gold;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.phone-number-example  {
+  border: solid;
+  padding: 1em;
+}
+
+.phone-number-example div {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.phone-number-example figcaption {
+  font-style: italic;
+  font-size: 0.8em;
+}
