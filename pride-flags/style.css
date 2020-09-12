@@ -1,0 +1,104 @@
+body {
+  font-size: 1.5em;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+.pride-flag {
+  display: flex;
+  flex-flow: column wrap;
+  width: 15em;
+  height: 7em;
+  margin: 0 auto;
+}
+
+.pride-flag div {
+  height: 1.16em;
+}
+
+.philadelphia-poc div {
+  height: 0.87em;
+}
+
+.bear-brotherhood div {
+  height: 1em;
+}
+
+/* todo: fix colors, these are off */
+
+.black {
+  background: #000000;
+}
+
+.brown {
+  background: #653d0e;
+}
+
+.red {
+  background: #db0005;
+}
+
+.orange {
+  background: #fd7908;
+}
+
+.yellow {
+  background: #feed09;
+}
+
+.green {
+  background: #0f711a;
+}
+
+.blue {
+  background: #002cff;
+}
+
+.purple {
+  background: #610075;
+}
+
+.bear-dark-brown {
+  background: #4e2801;
+}
+
+.bear-light-brown {
+  background: #ca4e05;
+}
+
+.bear-yellow {
+  background: #fdd951;
+}
+
+.bear-tan {
+  background: #fde2ac;
+}
+
+.bear-white {
+  background: #ffffff;
+}
+
+.bear-grey {
+  background: #424242;
+}
+
+.bear-black {
+  background: #000000;
+}
+
+
+main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
