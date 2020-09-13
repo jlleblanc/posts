@@ -39,6 +39,14 @@ footer {
   background: tomato;
 }
 
+.what-is-this {
+  background: blue;
+}
+
+.what-is-this a {
+  color: white;
+}
+
 .deduction-income {
   background: green;
 }
