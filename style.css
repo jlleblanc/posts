@@ -1,10 +1,21 @@
 body {
   font-family: sans-serif;
+  background-color: #dcedfd;
 }
 
 main,
 footer {
   margin: 0 30px;
+}
+
+.black-lives-matter {
+  text-align: center;
+  font-size: 4em;
+  text-transform: uppercase;
+  background: black;
+  color: white;
+  padding: 1em;
+  font-weight: bold;
 }
 
 .flex-container {
@@ -13,7 +24,6 @@ footer {
 }
 
 .item {
-  background: tomato;
   display: flex;
   padding: 1em;
   justify-content: center;
