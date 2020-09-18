@@ -102,3 +102,21 @@ main, footer {
   max-width: 800px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 800px) {
+  main, footer {
+    max-width: 700px;
+    margin: 0.5em auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main, footer {
+    margin: 0.5em;
+  }
+  
+  .pride-flag {
+     width: 12em;
+  }
+}
+

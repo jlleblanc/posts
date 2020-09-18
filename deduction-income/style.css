@@ -80,18 +80,17 @@ td.figure {
   font-family: CothamSans;
 }
 
-@media screen and (max-width: 480px) {
-  main, footer {
-    max-width: 400px;
-    margin: 0 30px;  
-  }
-}
-
-
 @media screen and (max-width: 800px) {
   main, footer {
     max-width: 700px;
-    margin: 0 30px;  
+    margin: 0.5em
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main, footer {
+    max-width: 400px;
+    margin: 0.5em;
   }
 }
 

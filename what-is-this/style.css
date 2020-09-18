@@ -21,3 +21,17 @@ blockquote {
   float: right;
   width: 50%;
 }
+
+@media screen and (max-width: 800px) {
+  main, footer {
+    max-width: 700px;
+    margin: 0.5em auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main, footer {
+    max-width: 400px;
+    margin: 0.5em;
+  }
+}
