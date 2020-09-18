@@ -83,7 +83,7 @@ td.figure {
 @media screen and (max-width: 800px) {
   main, footer {
     max-width: 700px;
-    margin: 0.5em
+    margin: 0.5em;
   }
 }
 
