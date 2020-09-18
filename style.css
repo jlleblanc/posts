@@ -62,3 +62,13 @@ footer {
 .deduction-income a {
   color: white;
 }
+
+@media screen and (max-width: 320px) {
+  .black-lives-matter {
+    padding: 0.5em;
+  }
+    
+  .item a {
+    text-align: center;
+  }
+}
