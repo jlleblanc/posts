@@ -51,6 +51,10 @@ footer {
   background: green;
 }
 
+.deduction-income a {
+  color: white;
+}
+
 .pride-flags {
   background: purple;
 }
@@ -59,8 +63,12 @@ footer {
   color: #dcedfd;
 }
 
-.deduction-income a {
-  color: white;
+.boycotts {
+  background: white;
+}
+
+.boycotts a {
+  color: red;
 }
 
 @media screen and (max-width: 320px) {
