@@ -24,43 +24,16 @@ section {
   margin: 0 auto;
 }
 
-.pride-flag {
-  background: linear-gradient(
-    to bottom, 
-    #db0005 16.66%, 
-    #fd7908 16.66% 33.33%,
-    #feed09 33.33% 50%,
-    #0f711a 50% 66.66%,
-    #002cff 66.66% 83.33%,
-    #610075 83.33% 100%
-  );
+.pride-flag div {
+  height: 1.16em;
 }
 
-.philadelphia-poc {
-  background: linear-gradient(
-    to bottom,
-    #000000 12.5%, 
-    #653d0e 12.5% 25%,
-    #db0005 25% 37.5%,
-    #fd7908 37.5% 50%,
-    #feed09 50% 62.5%,
-    #0f711a 62.5% 75%,
-    #002cff 75% 87.5%,
-    #610075 87.5% 100%
-  );
+.philadelphia-poc div {
+  height: 0.87em;
 }
 
-.bear-brotherhood {
-  background: linear-gradient(
-    to bottom,
-    #4e2801 14.25%, 
-    #ca4e05 14.25% 28.5%,
-    #fdd951 28.5% 43%,
-    #fde2ac 43% 57.5%,
-    #ffffff 57.5% 71.75%,
-    #424242 71.75% 85.5%,
-    #000000 85.5% 100%
-  );
+.bear-brotherhood div {
+  height: 1em;
 }
 
 .black {
