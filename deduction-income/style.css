@@ -1,16 +1,16 @@
 @font-face {
   font-family: CooperHewitt-Bold;
-  src: url(CooperHewitt-Bold.otf);
+  src: url(../fonts/CooperHewitt-Bold.otf);
 }
 
 @font-face {
   font-family: EBGaramond;
-  src: url(EBGaramond12-Regular.otf);
+  src: url(../fonts/EBGaramond12-Regular.otf);
 }
 
 @font-face {
   font-family: CothamSans;
-  src: url(CothamSans.otf)
+  src: url(../fonts/CothamSans.otf)
 }
 
 /*
