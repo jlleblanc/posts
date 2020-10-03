@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Helvetica, "You don't have Helvetica? Fine.", Arial, sans-serif;
   background-color: #dcedfd;
 }
 
@@ -33,41 +33,72 @@ footer {
   width: 9em;
   height: 6em;
   font-size: 2em;
+  border: black 0.07em solid;
+  border-radius: 0.6em;
+  margin: 0.3em;
+}
+
+.item:hover, .item:hover a {
+  transition: 0.5s;
+}
+
+.item a {
+  color: black;
 }
 
 .header-cell {
+  background: #ff634799;
+}
+
+.header-cell:hover {
   background: tomato;
 }
 
 .what-is-this {
+  background: #0000ff99;
+}
+
+.what-is-this:hover {
   background: blue;
 }
 
-.what-is-this a {
+.what-is-this:hover a {
   color: white;
 }
 
 .deduction-income {
+  background: #00800099;
+}
+
+.deduction-income:hover {
   background: green;
 }
 
-.deduction-income a {
+.deduction-income:hover a {
   color: white;
 }
 
 .pride-flags {
+  background: #80008099;
+}
+
+.pride-flags:hover {
   background: purple;
 }
 
-.pride-flags a {
+.pride-flags:hover a {
   color: #dcedfd;
 }
 
 .boycotts {
+  background: #D0D0D099;
+}
+
+.boycotts:hover {
   background: white;
 }
 
-.boycotts a {
+.boycotts:hover a {
   color: red;
 }
 
