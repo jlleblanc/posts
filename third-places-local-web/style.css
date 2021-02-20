@@ -1,0 +1,73 @@
+body {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  background: #c5e9ff;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+p {
+  margin: 0.5em 0em;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a:visited {
+  color: #0000FF;
+}
+
+p.the-problem, p.a-solution, p.workshop-time {
+  font-size: 1.75em;
+  line-height: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+p.copyright {
+  font-family: serif;
+}
+
+section.slide li {
+  font-size: 1.75em;
+  margin-bottom: 0.25em;
+}
+
+section.slide li ul {
+  margin-top: 0.25em;
+}
+
+section.slide li ul li {
+  font-size: unset;
+}
+
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  main,
+  footer {
+    max-width: 700px;
+    margin: 0.5em auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main,
+  footer {
+    max-width: 400px;
+    margin: 0.5em;
+  }
+}
