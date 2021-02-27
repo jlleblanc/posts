@@ -17,19 +17,51 @@ main, footer {
   margin: 0 auto;
 }
 
+
+/* Big callout here: an example of a phone number */
 .phone-number-example  {
+  width: 50%;
+  float: right;
   border: solid;
   padding: 1em;
+  margin: 0.2em;
 }
 
 .phone-number-example div {
   text-align: center;
   font-family: sans-serif;
-  font-size: 3em;
+  font-size: 1.5em;
   margin-bottom: 0.5em;
 }
 
 .phone-number-example figcaption {
   font-style: italic;
   font-size: 0.8em;
+}
+
+/* clearing after the example just in case */
+
+.after-phone-number-example {
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  main,
+  footer {
+    max-width: 700px;
+    margin: 0.5em auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main,
+  footer {
+    max-width: 400px;
+    margin: 0.5em;
+  }
+  
+  .phone-number-example {
+    float: none;
+    width: auto;
+  }
 }
