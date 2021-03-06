@@ -1,12 +1,12 @@
 body {
   font-size: 1.5em;
   font-family: sans-serif;
-  background: #c5e9ff;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: sans-serif;
-
 }
 
 h1 {
@@ -24,10 +24,14 @@ main {
 }
 
 a:visited {
-  color: #0000FF;
+  color: #0000ff;
 }
 
-p.the-problem, p.a-solution, p.workshop-time {
+p.the-problem,
+p.a-solution,
+p.workshop-time,
+p.ice-breaker,
+p.introductions {
   font-size: 1.75em;
   line-height: 1.5em;
   font-weight: bold;
@@ -50,7 +54,6 @@ section.slide li ul {
 section.slide li ul li {
   font-size: unset;
 }
-
 
 @media screen and (max-width: 800px) {
   h1 {
