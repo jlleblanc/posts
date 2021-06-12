@@ -26,17 +26,29 @@ body {
 }
 
 /* 
-  Some of the letters render a bit off
-  from where I would like them, so these
-  adjust
+  The letters render a bit off from where
+  I would like them, so these adjust
 */
+.glamshell-letter-g {
+  letter-spacing: -0.05em;
+}
+
+.glamshell-letter-l {
+  letter-spacing: -0.06em;
+}
+
 .glamshell-letter-a {
   letter-spacing: 0.04em;
 }
 
-.glamshell-letter-l {
+.glamshell-letter-h {
+  letter-spacing: -0.02em;
+}
+
+.glamshell-letter-s, .glamshell-letter-e {
   letter-spacing: -0.04em;
 }
+
 
 /* wow that's pink */
 .prompt {
@@ -46,6 +58,9 @@ body {
 @media screen and (max-width: 850px) {
   body {
     font-size: 6em;
+  }
+  .glamshell {
+    -webkit-text-stroke: 1.5px black;
   }
 }
 
