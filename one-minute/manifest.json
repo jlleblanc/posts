@@ -2,8 +2,8 @@
   "theme_color": "#f69435",
   "background_color": "#f69435",
   "display": "fullscreen",
-  "scope": "/",
-  "start_url": "/one-minute",
   "name": "One Minute",
-  "short_name": "One Minute"
+  "short_name": "One Minute",
+  "manifest_version": 2,
+  "version": "1"
 }
