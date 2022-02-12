@@ -14,6 +14,27 @@
         text-align: center;
         font-size: 5em;
       }
+
+      
+      #centerpiece {
+        position: absolute;
+        width: 99%;
+        height: auto;
+        top: 47%;
+        margin-top: -10px;
+        text-align: center;
+        font-size: 5em;
+        animation: growSunrise 60s;
+      }
+    
+      @keyframes growSunrise {
+        from {
+          transform: scale(0.5);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
     </style>
     <link rel="manifest" href="manifest.json">
     <title>One Minute</title>
