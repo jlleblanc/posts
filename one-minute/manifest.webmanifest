@@ -2,7 +2,7 @@
     "theme_color": "#f69435",
     "background_color": "#f69435",
     "display": "fullscreen",
-    "start_url": ".",
+    "start_url": "index.html",
     "name": "One Minute",
     "short_name": "One Minute",
     "icons": [
